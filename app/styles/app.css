@@ -1,7 +1,16 @@
 body{
     padding: 1%;
-    background-color: #00796B;
+    background-color: lightgrey;
      font-family: Verdana;
+}
+
+.container{
+    background-color: white;
+    border-radius: 1%;
+    min-height: 925px;
+    max-height: 100%;
+    overflow-y: scroll;
+    width: 80%;
 }
 
 .outlet{
@@ -15,9 +24,11 @@ body{
 .header{
    font-weight: bolder;
    color: white;
+   height: 5%;
    font-size: 24px;
    margin-bottom:  1%;
-   background-color: #00897B;
+   margin-top: 6px;
+   background-color: #d32f2f;
    border-radius: 1%;
 }
 
@@ -33,7 +44,7 @@ body{
 }
 
 .list-group-item{
-    background-color: #004D40;
+    background-color: #d32f2f;
     font-weight: bolder;
     border: none;
    
@@ -45,7 +56,7 @@ body{
 }
 .list-group a:hover{
     text-decoration: none;
-    background-color: #00695C;
+    background-color: #f44336;
 }
 
 .list-group a:active{
@@ -55,6 +66,10 @@ body{
 .list-group a:visited{
     text-decoration: none;
     color: white;
+}
+
+.badge{
+    background-color: grey;
 }
 
 
