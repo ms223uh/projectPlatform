@@ -1,27 +1,20 @@
 
     
 <div class="container">
-<div class="header">
-    <p>ProjectPlatform</p>
+    <div class="header">
+        <p>ProjectPlatform</p>
+        </div>
+        
+    <div class="list-group">
+    <a href="#" class="list-group-item">{{#link-to "home"}}Home{{/link-to}} </a>
+    <a href="#" class="list-group-item">{{#link-to "projects"}}Projects{{/link-to}}</a>
+    <a href="#" class="list-group-item">{{#link-to "messages"}}Messages <span class="badge">42</span>{{/link-to}}</a>
+    
     </div>
     
+    <div class="outlet">
+    {{outlet}}
+    </div>
 
-    
-<div class="list-group">
-    
-    
-  <a href="#" class="list-group-item">{{#link-to "home"}}Home{{/link-to}} </a>
-  <a href="#" class="list-group-item">{{#link-to "projects"}}Projects{{/link-to}}</a>
-  <a href="#" class="list-group-item">{{#link-to "messages"}}Messages <span class="badge">42</span>{{/link-to}}</a>
-</div>
-
-
-
-
-<div class="outlet">
-    
-{{outlet}}
-
-</div>
 </div>
 

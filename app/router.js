@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('projects');
   this.route('home', { path: '/' });
   this.route('messages');
+  this.route('myprojects');
 });
 
 export default Router;
