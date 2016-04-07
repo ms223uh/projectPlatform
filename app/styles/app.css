@@ -96,8 +96,10 @@ body{
     size: 5px;
 }
 
-/*.nav nav-tabs{
+.nav nav-tabs li a{
     background-color: #d32f2f;
-    font-weight: bolder;
-    border: none;
-}*/
+}
+
+
+
+
