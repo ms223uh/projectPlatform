@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+    
+    <div class="col-sm-2">
+                
+                <div class="well">
+                    <% message.forEach(function(message) { %>
+                        <li><%= message.ID %> - <span class="badge"><%= message.messages %></span></li>
+                    <% }); %>
+                </div>
+
+            </div>
+    
+        <div class="row">
+            <div class="col-sm-9">
+            
+                <div class="jumbotron">
+                    <h1>Messages</h1>
+                
+            </div>
+            
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+    
+</body>
+</html>
