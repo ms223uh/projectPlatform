@@ -26,7 +26,10 @@
             
                 <div class="jumbotron">
                     <h1>Projects</h1>
-                    
+                   
+                   <% project.forEach(function(project) { %>
+                        <li><%= project.ID  %></span></li>
+                    <% }); %>
                 </div>
                 
             </div>
